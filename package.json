@@ -1,0 +1,9 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass styles/main.scss styles/index.css --output-style compressed "
+  },
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
