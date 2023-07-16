@@ -1,0 +1,160 @@
+.header {
+  height: 85vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(#95d8ff, 0.8),
+      rgba(#ffb4b4, 0.8)
+    ),
+    url(../img/hero.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+.heading-primary {
+  color: #000000;
+  text-transform: uppercase;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  margin-bottom: 3rem;
+  &--main {
+    display: block;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 1rem;
+  }
+  &--sub {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.25rem;
+    -webkit-animation: moveInRight 1s ease-out;
+    animation: moveInRight 1s ease-out;
+  }
+}
+
+.section {
+  &-intro {
+    padding: 3rem 5rem;
+    background-color: #00558e;
+    align-items: center;
+  }
+  &-header {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    &-subtitle {
+      text-transform: uppercase;
+      font-size: 16px;
+      letter-spacing: 1px;
+      color: #2cbc63;
+      font-weight: bold;
+    }
+    &-title {
+      color: #2cbc63;
+      font-size: 25px;
+      line-height: 1.1275em;
+      font-weight: 700;
+    }
+  }
+  &-description {
+    width: 65%;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  &-card {
+    width: 15rem;
+    height: 15rem;
+    overflow: hidden;
+    &-subtitle {
+      font-size: 11px;
+    }
+    &:hover {
+      transform: translateY(-1.5rem) scale(1.1);
+      .section-card-title {
+        color: #2cbc63;
+      }
+    }
+  }
+  &-industries {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    &-column {
+      display: flex;
+      flex-direction: column;
+    }
+    &-content {
+      font-size: 18px;
+      color: #777;
+      font-weight: bold;
+      padding: 0.5rem;
+      &:hover {
+        color: #000000;
+      }
+    }
+  }
+}
+
+.card-img-top {
+  min-height: 75% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .heading-primary {
+    &--main {
+      font-size: 18px;
+      letter-spacing: 0.5rem;
+    }
+    &--sub {
+      font-size: 18px;
+      letter-spacing: 0.25rem;
+    }
+  }
+  .section-intro {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 600px) {
+  .section {
+    &-intro {
+      padding: 1rem;
+      background-color: #00558e;
+    }
+    &-header {
+      width: 100%;
+    }
+    &-description {
+      width: 100%;
+    }
+  }
+}
+@media (min-width: 200px) and (max-width: 867px) {
+  .section {
+    &-intro {
+      padding: 1rem;
+    }
+    &-industries {
+      flex-direction: column;
+    }
+  }
+}
+
+@media (min-width: 867px) and (max-width: 1024px) {
+  .section {
+    &-intro {
+      padding: 3rem;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.footer {
+  background-color: #f0f0f0;
+  font-size: 1.4rem;
+  color: #000000;
+  &-quick {
+    min-width: 10rem;
+    &-header {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    &-description {
+      color: #7a7a7a;
+      font-size: 16px;
+      padding: 8px 0;
+      cursor: pointer;
+      &:hover {
+        color: #000000;
+      }
+    }
+    &-location {
+      width: 13rem;
+    }
+  }
+  &-copyright {
+    background-color: #ffffff;
+    padding: 1rem;
+    font-size: 16px;
+    color: #7a7a7a;
+    text-align: center;
+    &:hover {
+      color: #000000;
+    }
+  }
+}
