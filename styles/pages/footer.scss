@@ -2,6 +2,9 @@
   background-color: #f0f0f0;
   font-size: 1.4rem;
   color: #000000;
+  &-logo {
+    width: 25%;
+  }
   &-quick {
     min-width: 10rem;
     &-header {
@@ -29,6 +32,23 @@
     text-align: center;
     &:hover {
       color: #000000;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    background-color: #f0f0f0;
+    font-size: 1.4rem;
+    color: #000000;
+    &-logo {
+      width: 100%;
+    }
+    &-quick {
+      width: 100%;
+      &-location {
+        width: 100%;
+      }
     }
   }
 }
