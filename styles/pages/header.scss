@@ -29,18 +29,37 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    &-service {
+      width: 650px;
+      height: 375px;
+      padding: 1rem;
+      border-radius: 10px;
+      &-column {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        div {
+          h6 {
+            &:hover {
+              color: $color-background-color;
+            }
+          }
+        }
+      }
+    }
     a {
       color: black;
       padding: 5px 10px;
       text-decoration: none;
       display: block;
       font-size: 14px;
+      line-height: 2.5;
     }
   }
 }
 
 .dropdown-content a:hover {
-  background-color: #51d6ff;
+  background-color: $color-background-color;
   color: #ffffff;
 }
 
@@ -52,6 +71,32 @@
   .header {
     &-social {
       display: none;
+    }
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    &-content {
+      &-service {
+        width: 300px;
+        height: 400px;
+        padding: 1rem;
+        border-radius: 10px;
+        flex-direction: column;
+        overflow: auto;
+        &-column {
+          display: flex;
+          justify-content: start;
+        }
+      }
+      a {
+        color: black;
+        padding: 5px 10px;
+        text-decoration: none;
+        display: block;
+        font-size: 14px;
+        line-height: 2;
+      }
     }
   }
 }
