@@ -1,0 +1,31 @@
+.services {
+  &-we-provide {
+    padding: 1rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 5px 10px rgba(2, 58, 81, 0.05);
+    width: 180px;
+    height: 170px;
+    text-align: center;
+    &:hover {
+      border: 1px solid #5cb85c;
+      transform: translateY(-1rem) scale(1.1);
+    }
+    &-image {
+      width: 50px;
+    }
+  }
+}
+.card-title {
+  &:hover {
+    color: #15416e;
+  }
+}

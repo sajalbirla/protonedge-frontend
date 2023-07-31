@@ -29,9 +29,10 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    left: -150px;
     &-service {
-      width: 650px;
-      height: 375px;
+      width: 830px;
+      height: 400px;
       padding: 1rem;
       border-radius: 10px;
       &-column {
@@ -77,6 +78,7 @@
     position: relative;
     display: inline-block;
     &-content {
+      left: 0;
       &-service {
         width: 300px;
         height: 400px;
