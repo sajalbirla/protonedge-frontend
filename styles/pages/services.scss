@@ -29,3 +29,13 @@
     color: #15416e;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .services-we-provide {
+    padding: 0;
+    justify-content: center;
+  }
+  .services-container {
+    margin: 0.5rem;
+  }
+}
