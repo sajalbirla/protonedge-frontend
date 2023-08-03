@@ -189,7 +189,9 @@
               </li>
               <li class="nav-item dropdown">
                 <div class="dropdown">
-                  <button class="dropbtn header-dropdown">For CPA Firms</button>
+               <button class="dropbtn header-dropdown">
+                    <a href="/cpa-firms">CPA Firms</a>
+                  </button>
                 </div>
               </li>
               <li class="nav-item dropdown">
@@ -364,7 +366,7 @@
         </div>
       </section>
     </main>
-    <div class="splide" data-splide='{"type":"loop","perPage":3}'>
+    <!-- <div class="splide" data-splide='{"type":"loop","perPage":3}'>
       <h2 id="carousel-heading">Splide Basic HTML Example</h2>
 
       <div class="splide__track">
@@ -391,8 +393,13 @@
           </li>
         </ul>
       </div>
-    </div>
+    </div> -->
 
+    <div>
+      <div class="card" style="width: 15rem">
+        <img src="/Assets/SAP-logo.jpg" class="card-img-top" alt="..." />
+      </div>
+    </div>
     <footer class="footer">
       <div class="d-flex flex-wrap justify-content-around p-3">
         <div class="footer-logo">
@@ -478,26 +485,6 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
-    <script>
-      // Splide.defaults = {
-      //   type: "loop",
-      //   drag: "free",
-      //   perPage: 3,
-      // };
-      document.addEventListener("DOMContentLoaded", function () {
-        new Splide("#card-carousel", {
-          perPage: 2,
-          autoScroll: {
-            speed: 2,
-          },
-          breakpoints: {
-            640: {
-              perPage: 1,
-            },
-          },
-        }).mount();
-      });
-    </script>
     <script>
       {
         function ServiceRedirection() {
