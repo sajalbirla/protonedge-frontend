@@ -73,11 +73,11 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .header {
-    &-social {
-      display: none;
-    }
-  }
+  // .header {
+  //   &-social {
+  //     display: none;
+  //   }
+  // }
   .dropdown {
     position: relative;
     display: inline-block;
