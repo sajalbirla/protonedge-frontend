@@ -1,0 +1,47 @@
+.contact-us {
+  background-color: #047bcb;
+  &-overview {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    &-title {
+      display: flex;
+      flex-direction: column;
+      width: 45%;
+    }
+    &-header {
+      font-size: 30px;
+      font-weight: bold;
+      color: #55c57a;
+    }
+    &-description {
+      font-size: 35px;
+      font-weight: bold;
+      color: #ffffff;
+    }
+  }
+  &-address {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    &-header {
+      font-size: 15px;
+      font-weight: bold;
+    }
+    &-title {
+      padding: 1rem 0;
+      &-header {
+        color: #55c57a;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      &-description {
+        color: #ffffff;
+      }
+    }
+    &-consultation {
+      padding: 1rem;
+    }
+  }
+}
