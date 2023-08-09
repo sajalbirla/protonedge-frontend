@@ -33,11 +33,11 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    left: -150px;
+    left: -50px;
     &-service {
-      width: 820px;
+      width: 650px;
       height: 400px;
-      padding: 1rem;
+      padding: 1rem 0.5rem;
       border-radius: 10px;
       &-column {
         display: flex;
