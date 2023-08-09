@@ -3,7 +3,7 @@
   font-size: 1.4rem;
   color: #000000;
   &-logo {
-    width: 25%;
+    width: 20%;
   }
   &-quick {
     min-width: 10rem;
@@ -16,6 +16,9 @@
       font-size: 16px;
       padding: 8px 0;
       cursor: pointer;
+      a {
+        text-decoration: none;
+      }
       &:hover {
         color: #000000;
       }
