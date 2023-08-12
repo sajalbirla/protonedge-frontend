@@ -1,5 +1,5 @@
 .header {
-  height: 85vh;
+  height: 70vh;
   background-image: linear-gradient(
       to right bottom,
       rgba(#95d8ff, 0.8),
@@ -12,7 +12,7 @@
 
   &__text-box {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -45,7 +45,7 @@
 .section {
   &-intro {
     padding: 3rem 5rem;
-    background-color: #00558e;
+    background-color: #047bcb;
     align-items: center;
   }
   &-header {
@@ -103,6 +103,32 @@
         color: #000000;
       }
     }
+  }
+}
+.image-craousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11rem;
+  height: 100px;
+}
+.services-points {
+  display: flex;
+  width: 30%;
+  height: 220px;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  &:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+  &-header {
+    color: #047bcb;
+  }
+  &-description {
+    font-size: 14px;
+    line-height: 1.6;
   }
 }
 
