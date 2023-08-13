@@ -1,11 +1,7 @@
 .header {
   height: 70vh;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(#95d8ff, 0.8),
-      rgba(#ffb4b4, 0.8)
-    ),
-    url(../img/hero.jpg);
+  // background-image:
+  background-image: url("/Assets/background-start.jpg");
   background-size: cover;
   background-position: top;
   position: relative;
@@ -27,14 +23,15 @@
   margin-bottom: 3rem;
   &--main {
     display: block;
-    font-size: 2rem;
-    font-weight: 400;
+    color: #047bcb;
+    font-size: 3rem;
+    font-weight: bold;
     letter-spacing: 2px;
     padding: 1rem;
   }
   &--sub {
     display: block;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
     letter-spacing: 0.25rem;
     -webkit-animation: moveInRight 1s ease-out;
@@ -177,6 +174,12 @@
   .services-points {
     width: 100%;
   }
+  .button-transition {
+    font-size: 16px !important;
+  }
+  .button-trans {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 200px) and (max-width: 600px) {
@@ -210,4 +213,25 @@
       padding: 3rem;
     }
   }
+}
+
+.button-transition {
+  border-radius: 30px;
+  background: linear-gradient(to right, #047bcb 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+  font-size: 20px;
+  font-weight: bold;
+  &:hover {
+    color: white;
+    background-position: left bottom;
+  }
+}
+
+.button-trans {
+  background-color: #047bcb;
+  padding: 5px;
+  border-radius: 30px;
+  font-size: 20px;
 }
