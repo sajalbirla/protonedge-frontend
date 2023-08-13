@@ -90,6 +90,11 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    &-intro {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+    }
     &-column {
       display: flex;
       flex-direction: column;
@@ -103,6 +108,24 @@
         color: #000000;
       }
     }
+    &-listing {
+      width: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin: 0.5rem;
+      padding: 0.5rem;
+      border: 1px solid #e5e5e5;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      &:hover {
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+      }
+      &-image {
+        width: 40px;
+      }
+    }
   }
 }
 .image-craousel {
@@ -111,6 +134,7 @@
   align-items: center;
   width: 11rem;
   height: 100px;
+  margin: 0.5rem;
 }
 .services-points {
   display: flex;
