@@ -57,3 +57,18 @@
     }
   }
 }
+
+@media (min-width: 481px) and (max-width: 800px) {
+  .footer {
+    &-logo {
+      width: 50%;
+    }
+    &-quick {
+      width: 40%;
+      text-align: center;
+      &-location {
+        width: 40%;
+      }
+    }
+  }
+}
