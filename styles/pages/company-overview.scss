@@ -1,6 +1,4 @@
 .company-overview {
-  //   max-width: 1200px;
-  //   margin: 0 auto;
   &-content {
     display: flex;
     justify-content: space-around;
@@ -52,6 +50,9 @@
       }
       &-link {
         color: $color-primary;
+        a {
+          color: $color-primary;
+        }
       }
     }
     &-image {
@@ -83,7 +84,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
   .company-overview {
     &-content {
       flex-direction: column;
@@ -97,11 +98,13 @@
     }
     &-about-us {
       flex-direction: column-reverse;
+      padding: 1rem;
       &-content {
         width: 100%;
-        // &-description {
-        //   width: 100%;
-        // }
+        &-description {
+          width: 100%;
+          padding: 0.5rem 0;
+        }
       }
       &-image {
         width: 70%;
