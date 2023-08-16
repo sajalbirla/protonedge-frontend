@@ -10,7 +10,7 @@
   &-points {
     display: flex;
     width: 40%;
-    height: 220px;
+    // height: 220px;
     margin: 1rem;
     &-image {
       max-width: 110px;
@@ -63,8 +63,8 @@
     }
     &-points {
       width: 100%;
-      height: 320px;
-      margin: 3rem 1rem;
+      // height: fit-content;
+      margin: 1rem;
       flex-direction: column;
       &-image {
         width: 175px;
@@ -80,5 +80,23 @@
         width: 100%;
       }
     }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+  .bookkeeping {
+    &-points {
+      width: 45%;
+    }
+    // &-stories {
+    //   flex-direction: column-reverse;
+    //   align-items: center;
+    //   &-image {
+    //     width: 90%;
+    //   }
+    //   &-content {
+    //     width: 100%;
+    //   }
+    // }
   }
 }
