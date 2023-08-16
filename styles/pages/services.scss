@@ -4,13 +4,15 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    max-width: 1140px;
+    margin: auto;
   }
   &-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem;
-    margin: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
     box-shadow: 0 5px 10px rgba(2, 58, 81, 0.05);
     width: 180px;
     height: 170px;

@@ -8,7 +8,7 @@
     flex-direction: column;
   }
   &-quick {
-    min-width: 10rem;
+    min-width: 150px;
     &-header {
       font-size: 16px;
       font-weight: bold;
@@ -67,7 +67,7 @@
       width: 40%;
       text-align: center;
       &-location {
-        width: 40%;
+        width: 85%;
       }
     }
   }
