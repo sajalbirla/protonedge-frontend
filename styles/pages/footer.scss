@@ -64,10 +64,25 @@
       width: 50%;
     }
     &-quick {
-      width: 40%;
-      text-align: center;
+      width: 30%;
+      display: none !important;
       &-location {
-        width: 85%;
+        width: 35%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 821px) and (orientation: portrait) {
+  .footer {
+    &-logo {
+      width: 50%;
+    }
+    &-quick {
+      width: 30%;
+      display: none !important;
+      &-location {
+        width: 35%;
       }
     }
   }
