@@ -174,12 +174,17 @@
   font-size: 20px;
 }
 @media only screen and (max-width: 600px) {
+  .header {
+    background-image: url("/Assets/wp9223502.jpg");
+  }
   .heading-primary {
     &--main {
+      color: #fff;
       font-size: 18px;
       letter-spacing: 0.5rem;
     }
     &--sub {
+      color: #fff;
       font-size: 18px;
       letter-spacing: 0.25rem;
     }
@@ -191,9 +196,11 @@
     width: 100%;
   }
   .button-transition {
+    color: white;
     font-size: 16px !important;
   }
   .button-trans {
+    color: white;
     font-size: 20px;
   }
 }
